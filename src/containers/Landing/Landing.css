@@ -1,0 +1,25 @@
+.Landing {
+  text-align: center;
+  min-height: 100vh;
+  background-color: #060606;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+  
+.Landing-logo {
+  height: 40vmin;
+  pointer-events: none;
+  border-radius: 10%;
+}
+
+.Landing .welcome-text {
+  font-weight: bolder;
+  font-size: larger;
+  color: #be2207;
+  font-family: 'Lobster Two', cursive;
+}
+  

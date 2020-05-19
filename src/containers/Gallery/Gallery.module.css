@@ -1,0 +1,32 @@
+.Gallery {
+    min-height: 100vh;
+    width: 100%;
+    background-color: #060606;
+    font-size: calc(10px + 2vmin);
+    color: white;
+}
+
+.PhotoDiv {
+    width: 100%;
+    height: 100%;
+}
+
+@media(min-width: 500px){
+    .Gallery {
+        min-height: 100vh;
+        width: 100%;
+        background-color: #060606;
+        font-size: calc(10px + 2vmin);
+        color: white;
+    }
+}
+
+@media(width: 320px){
+    .Gallery {
+        min-height: 100vh;
+        width: 100%;
+        background-color: #060606;
+        font-size: calc(10px + 2vmin);
+        color: white;
+    }
+}

@@ -1,0 +1,20 @@
+.Photo{
+    width: 90%;
+    text-align: center;
+    box-shadow: 0 2px 3px #ccc;
+    border: 1px solid #060606;
+    padding: 2px;
+    box-sizing: border-box;
+}
+
+.Image{
+    position: relative;
+    width: 100%;
+}
+
+
+@media(min-width: 500px){
+    .Photo{
+        width: 90%;
+    }
+}

@@ -1,0 +1,29 @@
+.Photos{
+    position: relative;
+    width: 100%;
+}
+
+.Photo{
+    position: relative;
+    width: 90%;
+    align-items: center;
+    left: 30px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+@media(min-width: 500px){
+    .Photos{
+        width: 100%;
+    }
+
+    .Photo{
+        position: relative;
+        width: 90%;
+        align-items: center;
+        left: 10px;
+        margin: 40px;
+        display: grid;
+        grid-template-columns: 25% 25% 25% 25%;
+    }
+}

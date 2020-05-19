@@ -1,0 +1,55 @@
+.Content {
+    margin-top: 72px;
+}
+
+.header2 {
+    margin-top: 50px;
+    height: 20px;
+    width: 95%;
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+    background: #333333;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #020d4e, #333333);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #020d4e, #333333); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+    font-family: 'Montserrat Alternates', sans-serif;
+    color: wheat;
+    font-weight: 500;
+}
+
+.header2 h4{
+    position: relative;
+    left: 20%;
+    padding-top: 5px;
+}
+
+
+@media(min-width: 500px){
+    .header2 {
+        height: 30px;
+        width: 98%;
+        padding: 10px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    
+        background: #333333;  /* fallback for old browsers */
+        background: -webkit-linear-gradient(to right, #020d4e, #333333);  /* Chrome 10-25, Safari 5.1-6 */
+        background: linear-gradient(to right, #020d4e, #333333); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+        font-family: 'Montserrat Alternates', sans-serif;
+        color: wheat;
+        font-weight: 500;
+    }
+
+    .header2 h4{
+        position: relative;
+        left: 40%;
+        padding-top: 5px;
+    }
+}
